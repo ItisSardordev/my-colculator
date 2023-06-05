@@ -11,24 +11,24 @@
 // console.log(d)
 
 
-// let a = prompt("birinchi sonni kiriting: ")
-// let b = prompt("ishorani kiriting: ")
-// let c = prompt("ikkinchi sonni kiriting: ")
-// if (b == "/"){
-//     console.log(a / c)
-// }else if(b == "*"){
-//     console.log(a * c)
-// }else if(b == "+"){
-//     console.log((-a) + (-c)) 
-// }else if(b == "-"){
-//     console.log(a - c)
-// }
-
-
-let f = +prompt("birinchi sonni kiriting: ")
+let a = +prompt("birinchi sonni kiriting: ")
+let b = prompt("ishorani kiriting: ")
 let c = +prompt("ikkinchi sonni kiriting: ")
+if (b == "/"){
+    console.log(a / c)
+}else if(b == "*"){
+    console.log(a * c)
+}else if(b == "+"){
+    console.log((a) + (c))
+}else if(b == "-"){
+    console.log(a - c)
+}
 
-console.log(f + c);
-console.log(f - c);
-console.log(f * c);
-console.log(f / c);
+
+// let f = +prompt("birinchi sonni kiriting: ")
+// let c = +prompt("ikkinchi sonni kiriting: ")
+
+// console.log(f + c);
+// console.log(f - c);
+// console.log(f * c);
+// console.log(f / c);
